@@ -54,6 +54,10 @@ body {
   font-weight: 300;
 }
 
+body.page.page-id-19.page-template-default.logged-in{
+  font-family: 'DaxlinePro-Regular', sans-serif;
+}
+
 body > section,
 #boxed > section {
   /*padding: 50px 0;*/
