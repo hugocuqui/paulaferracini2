@@ -1856,13 +1856,13 @@ ul#menu-company-menu li:before{
 /*******************************/
 
 .btn-saibamais{
-  background: url('/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/images/img/btn-saibamais.png') no-repeat 0px 0px;
+  background: url('/wp-content/themes/flat-theme/assets/images/img/btn-saibamais.png') no-repeat 0px 0px;
   width: 90px;
   height: 24px;
   display: inline-block;
 }
 .box-quemsomos-treinamento{
-  background: #837197 url('/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/images/img/bg-pattern.png');
+  background: #837197 url('/wp-content/themes/flat-theme/assets/images/img/bg-pattern.png');
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1884,7 +1884,7 @@ ul#menu-company-menu li:before{
   background: rgba(255, 254, 255, 0.8);
 }
 .box-quemsomos-treinamento .card{
-  background: url('/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/images/img/card.png') no-repeat 0px 0px;
+  background: url('/wp-content/themes/flat-theme/assets/images/img/card.png') no-repeat 0px 0px;
   width: 590px;
   height: 189px;
   margin: auto;
