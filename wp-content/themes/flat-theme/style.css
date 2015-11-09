@@ -84,7 +84,9 @@ body > section,
   min-width: 1200px;
   right: auto;
 }
-
+strong{
+  font-family: 'DaxlinePro-Bold', sans-serif;
+}
 .center {
   text-align: center;
 }
@@ -1895,6 +1897,7 @@ ul#menu-company-menu li:before{
 }
 p{
   font-family: 'DaxlinePro-Light', sans-serif;
+  font-size: 18px;
 }
 .box-quemsomos-treinamento .btn-saibamais{
   margin-top: 50px;
@@ -1918,6 +1921,14 @@ p{
 }
 h2.cinza-marrom{
   font-size: 45px;
+}
+h4.media-heading{
+  font-size: 45px;
+  margin-top: 50px;
+}
+p.sub-title{
+  font-family: 'DaxlinePro-Light', sans-serif;
+  font-size: 21px;
 }
 .txt-img-bemvindo{
   text-align: center;
@@ -1958,7 +1969,12 @@ blockquote::after{
   margin-top: -60px;
   color: #837197;
 }
-
+blockquote.single::before{
+  margin-top: -25px;
+}
+blockquote.single::after{
+  margin-top: -25px;
+}
 .media{
   margin-top: 80px;
   margin-bottom: 80px;
@@ -1971,10 +1987,13 @@ blockquote::after{
 }
 .media p{
   margin-bottom: 30px;
-  line-height: 1;
+  line-height: 1.5;
 }
 .media > p{
   display: inline-block;
+}
+.media img {
+  width: 100%;
 }
 
 iframe{
