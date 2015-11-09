@@ -46,7 +46,7 @@
     </div>
     <?php } else { ?>
     <div class="entry-content">
-        <?php the_content( __( '<br><br><img src="/wp-content/themes/flat-theme/assets/images/img/btn-leiamais.jpg" />', ZEETEXTDOMAIN ) ); ?>
+        <?php the_content( __( '<br><br><img src="'. get_bloginfo('wpurl') .'/wp-content/themes/flat-theme/assets/images/img/btn-leiamais.jpg" />', ZEETEXTDOMAIN ) ); ?>
     </div>
     <?php } //.entry-content ?>
 

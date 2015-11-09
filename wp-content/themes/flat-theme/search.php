@@ -6,7 +6,7 @@ if ( is_active_sidebar( 'sidebar' ) ) {
 ?>
 
 <div class="container-fluid">
-  <img src="/wp-content/themes/flat-theme/assets/images/img/blog-banner-001.jpg" class="width100" />
+  <img src="assets/images/img/blog-banner-001.jpg" class="width100" />
 </div>
 <div class="container bem-vindo">
   <h2 class="text-center cinza-marrom">Blog</h2>
