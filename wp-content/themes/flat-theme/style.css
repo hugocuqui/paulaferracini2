@@ -16,33 +16,41 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @font-face {
   font-family: 'DaxlinePro-Medium';
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf');
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium?#iefix') format('embedded-opentype'),
-  url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf') format('truetype');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Medium.otf');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Medium?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DaxlinePro/DaxlinePro-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'DaxlinePro-Light';
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf');
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light?#iefix') format('embedded-opentype'),
-  url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf') format('truetype');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Light.otf');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Light?#iefix') format('embedded-opentype'),
+  url('assets/fonts/DaxlinePro/DaxlinePro-Light.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'DaxlinePro-Regular';
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf');
-  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular?#iefix') format('embedded-opentype'),
-       url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf') format('truetype');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Regular.otf');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Regular?#iefix') format('embedded-opentype'),
+       url('assets/fonts/DaxlinePro/DaxlinePro-Regular.otf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'DaxlinePro-Bold';
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Bold.otf');
+  src: url('assets/fonts/DaxlinePro/DaxlinePro-Bold?#iefix') format('embedded-opentype'),
+       url('assets/fonts/DaxlinePro/DaxlinePro-Bold.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Keytin';
-  src: url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf');
-  src: url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin?#iefix') format('embedded-opentype'),
-  url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf') format('truetype');
+  src: url('assets/fonts/Keytin/Keytin.ttf');
+  src: url('assets/fonts/Keytin/Keytin?#iefix') format('embedded-opentype'),
+  url('assets/fonts/Keytin/Keytin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
@@ -97,8 +105,7 @@ h2,
 h3,
 h4,
 h5 {
-  font-family: 'Roboto', sans-serif;
-  font-weight: 400;
+  font-family: 'Keytin', sans-serif !important;
 }
 
 /* .btn */
@@ -1478,6 +1485,7 @@ textarea#message {
   display: inline-block;
   margin-left: 15px;
 }
+
 .tab-content {
   background: #fff;
   padding: 15px;
@@ -1793,6 +1801,9 @@ background-color: #ECF0F1;
     color:#fff;
     padding: 15px 15px;
     display: block;
+    font-family: 'DaxlinePro-Regular', sans-serif;
+    text-transform: uppercase;
+    font-size: 15px;
 }
 .navbar-inverse .navbar-nav>li a:hover,
 .navbar-inverse .navbar-nav>li a.active{
@@ -1860,13 +1871,13 @@ ul#menu-company-menu li:before{
 /*******************************/
 
 .btn-saibamais{
-  background: url('/wp-content/themes/flat-theme/assets/images/img/btn-saibamais.png') no-repeat 0px 0px;
+  background: url('assets/images/img/btn-saibamais.png') no-repeat 0px 0px;
   width: 90px;
   height: 24px;
   display: inline-block;
 }
 .box-quemsomos-treinamento{
-  background: #837197 url('/wp-content/themes/flat-theme/assets/images/img/bg-pattern.png');
+  background: #837197 url('assets/images/img/bg-pattern.png');
   color: #fff;
   padding-top: 30px;
   padding-bottom: 30px;
@@ -1879,6 +1890,11 @@ ul#menu-company-menu li:before{
 }
 .box-quemsomos-treinamento h3{
   margin-bottom: 50px;
+  font-size: 45px;
+  text-transform: uppercase;
+}
+p{
+  font-family: 'DaxlinePro-Light', sans-serif;
 }
 .box-quemsomos-treinamento .btn-saibamais{
   margin-top: 50px;
@@ -1888,7 +1904,7 @@ ul#menu-company-menu li:before{
   background: rgba(255, 254, 255, 0.8);
 }
 .box-quemsomos-treinamento .card{
-  background: url('/wp-content/themes/flat-theme/assets/images/img/card.png') no-repeat 0px 0px;
+  background: url('assets/images/img/card.png') no-repeat 0px 0px;
   width: 590px;
   height: 189px;
   margin: auto;
@@ -1899,6 +1915,9 @@ ul#menu-company-menu li:before{
 }
 .bem-vindo-bottom{
   margin-bottom: 80px;
+}
+h2.cinza-marrom{
+  font-size: 45px;
 }
 .txt-img-bemvindo{
   text-align: center;
@@ -1921,6 +1940,7 @@ blockquote{
   border: 0;
   font-size: 25px;
   text-align: center;
+  font-family: 'DaxlinePro-Light', sans-serif;
 }
 blockquote::before{
   content: open-quote;
