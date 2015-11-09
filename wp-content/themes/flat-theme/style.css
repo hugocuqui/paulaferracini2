@@ -1922,7 +1922,7 @@ p{
 .bem-vindo-bottom{
   margin-bottom: 80px;
 }
-.post h2.entry-title a{
+.post h2.entry-title a, h1.entry-title{
   text-transform: uppercase;
   font-size: 45px;
 }
