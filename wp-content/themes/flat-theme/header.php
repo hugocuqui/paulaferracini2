@@ -11,7 +11,7 @@
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/respond.min.js"></script>
 <![endif]-->
 <?php zee_favicon();?>
-
+<?php wp_head(); ?>
 </head><!--/head-->
 
 <body <?php body_class() ?>>
