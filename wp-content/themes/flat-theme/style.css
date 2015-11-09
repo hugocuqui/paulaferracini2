@@ -16,33 +16,33 @@ Use it to make something cool, have fun, and share what you've learned with othe
 
 @font-face {
   font-family: 'DaxlinePro-Medium';
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf');
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium?#iefix') format('embedded-opentype'),
-  url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf') format('truetype');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium?#iefix') format('embedded-opentype'),
+  url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Medium.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'DaxlinePro-Light';
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf');
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light?#iefix') format('embedded-opentype'),
-  url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf') format('truetype');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light?#iefix') format('embedded-opentype'),
+  url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Light.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'DaxlinePro-Regular';
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf');
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular?#iefix') format('embedded-opentype'),
-       url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf') format('truetype');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular?#iefix') format('embedded-opentype'),
+       url('/wp-content/themes/flat-theme/assets/fonts/DaxlinePro/DaxlinePro-Regular.otf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 @font-face {
   font-family: 'Keytin';
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf');
-  src: url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin?#iefix') format('embedded-opentype'),
-  url('http://localhost/PaulaFerracini/app/WordPress-4.3.1/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf') format('truetype');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf');
+  src: url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin?#iefix') format('embedded-opentype'),
+  url('/wp-content/themes/flat-theme/assets/fonts/Keytin/Keytin.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
