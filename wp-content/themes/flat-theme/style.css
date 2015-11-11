@@ -740,7 +740,7 @@ ul {
 #main-slider .next, #main-slider2 .next {
   position: absolute;
   top: 50%;
-  background-color: rgba(116, 105, 142, 0);
+  background-color: rgba(116, 105, 142, 0.5);
   color: #fff;
   display: inline-block;
   margin-top: -25px;
@@ -802,6 +802,30 @@ ul {
 #recent-works .item-inner {
   position: relative;
   margin: 0;
+}
+
+.frases{
+  position: absolute;
+  top: 165px;
+  right: 330px;
+  text-align: center;
+}
+.frases a{
+  margin: 40px auto;
+  display: block;
+  text-align: center;
+  width: 125px;
+}
+.frases.escuro h3, .frases.escuro p{
+  color: #808183;
+}
+.frases h3{
+  font-size: 60px;
+  text-transform: uppercase;
+}
+.frases p{
+  text-align: center;
+  font-size: 27px;
 }
 .portfolio-items,
 .portfolio-filter {
