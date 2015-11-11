@@ -45,7 +45,7 @@
 
                 <?php if ( comments_open() && ! is_single() ) { ?>
                 <!-- <li class="comments-link">
-                    <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', ZEETEXTDOMAIN ) . '</span>', __( 'One comment so far', ZEETEXTDOMAIN ), __( 'View all % comments', ZEETEXTDOMAIN ) ); ?>
+                    <?php comments_popup_link( '<span class="leave-reply">' . __( 'Deixe um comentario', ZEETEXTDOMAIN ) . '</span>', __( 'Um comentario', ZEETEXTDOMAIN ), __( 'Ver todos % comments', ZEETEXTDOMAIN ) ); ?>
                 </li> -->
                 <?php } //.comment-link ?>
             </ul>

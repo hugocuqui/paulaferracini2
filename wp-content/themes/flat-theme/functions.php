@@ -1146,7 +1146,7 @@ $defaults = array(
     'comment_field'        => '
     <div class="form-group comment-form-comment">
     <div class="col-sm-12">
-    <textarea class="form-control" id="comment" name="comment" placeholder="' . _x( 'Comment', 'noun', ZEETEXTDOMAIN ) . '" rows="8" aria-required="true"></textarea>
+    <textarea class="form-control" id="comment" name="comment" placeholder="' . _x( '', 'noun', ZEETEXTDOMAIN ) . '" rows="8" aria-required="true">Mensagem*</textarea>
     </div>
     </div>
     ',
@@ -1158,7 +1158,7 @@ $defaults = array(
     . sprintf( __( 'You must be <a href="%s">logged in</a> to post a comment.' ), wp_login_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) )
     . '</div>',
 
-    'logged_in_as'         => '<div class="alert alert-info logged-in-as">' . sprintf( __( 'Logged in as <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Log out?</a>', ZEETEXTDOMAIN ), get_edit_user_link(), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</div>',
+    'logged_in_as'         => '<div class="alert alert-info logged-in-as">' . sprintf( __( 'Logado como <a href="%1$s">%2$s</a>. <a href="%3$s" title="Log out of this account">Sair?</a>', ZEETEXTDOMAIN ), get_edit_user_link(), $user_identity, wp_logout_url( apply_filters( 'the_permalink', get_permalink( $post_id ) ) ) ) . '</div>',
 
     'comment_notes_before' => '<div class="alert alert-info comment-notes">' . __( 'Your email address will not be published.', ZEETEXTDOMAIN ) . ( $req ? $required_text : '' ) . '</div>',
 
@@ -1168,13 +1168,13 @@ $defaults = array(
 
     'id_submit'            => 'submit',
 
-    'title_reply'          => __( 'Leave a Reply', ZEETEXTDOMAIN ),
+    'title_reply'          => __( 'Faça um comentário', ZEETEXTDOMAIN ),
 
-    'title_reply_to'       => __( 'Leave a Reply to %s', ZEETEXTDOMAIN ),
+    'title_reply_to'       => __( 'Faça um comentário %s', ZEETEXTDOMAIN ),
 
-    'cancel_reply_link'    => __( 'Cancel reply', ZEETEXTDOMAIN ),
+    'cancel_reply_link'    => __( 'Cancelar reply', ZEETEXTDOMAIN ),
 
-    'label_submit'         => __( 'Post Comment', ZEETEXTDOMAIN ),
+    'label_submit'         => __( 'Post', ZEETEXTDOMAIN ),
 
     'format'               => 'xhtml',
     );
@@ -1232,7 +1232,7 @@ if ( comments_open( $post_id ) ) { ?>
     echo $args['comment_notes_after']; ?>
 
     <div class="form-submit">
-        <input class="btn btn-danger btn-lg" name="submit" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" value="<?php echo esc_attr( $args['label_submit'] ); ?>" />
+        <input class="btn btn-enviar" name="submit" type="submit" id="<?php echo esc_attr( $args['id_submit'] ); ?>" value="Enviar" />
         <?php comment_id_fields( $post_id ); ?>
     </div>
 

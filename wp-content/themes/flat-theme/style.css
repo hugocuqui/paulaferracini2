@@ -1674,6 +1674,57 @@ code{
   border-top-color: #74698e;
   border-bottom-color: #74698e;
 }
+.form-allowed-tags{
+  display: none;
+}
+.btn-enviar{
+  border: 2px solid #74698e;
+  background: #fff;
+  color: #74698e;
+  text-transform: uppercase;
+  border-radius: 0px;
+}
+.alert.alert-info.logged-in-as{
+  display: none;
+}
+
+textarea {
+    padding: 10px;
+    display: block;
+    width: 70%;
+}
+
+::-webkit-input-placeholder {
+   color: #fff;
+}
+
+:-moz-placeholder {
+   color: #fff;
+}
+
+::-moz-placeholder {
+   color: #fff;
+}
+
+:-ms-input-placeholder {
+   color: #fff;
+}
+
+.well{
+  background: #74698e;
+  border-radius: 0px;
+  margin-left: 20px;
+}
+.well *{
+  color: #fff;
+}
+
+.comment-form-comment textarea.form-control{
+  background: #74698e;
+  color: #fff;
+  border-radius: 0px;
+  border-width: 0px;
+}
 .widget-area ul li:before{
     position: absolute;
 
