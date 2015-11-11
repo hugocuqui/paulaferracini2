@@ -25,7 +25,7 @@
         </h2>
         <?php } //.entry-title ?>
 
-        <div class="entry-meta">
+        <div class="entry-meta" style="font-style:normal">
             <ul>
                 <li class="author"><i class="fa fa-pencil-square-o"></i> <?php echo __('', ZEETEXTDOMAIN ); ?> <?php the_author_posts_link() ?></li>
                 <li> | </li>
@@ -37,7 +37,7 @@
                   <i class="fa fa-heart-o">
                   <div class="fb-like" data-layout="button" data-href="<?php the_permalink(); ?>"></div>
                 </li>
-                <li> | </li>
+                <li style="font-style:normal"> | </li>
                 <li>
                   <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button" ></div>
                   <i class="fa fa-share-alt">
