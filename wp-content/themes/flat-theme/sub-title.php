@@ -72,16 +72,6 @@ if( is_single() ) {
 
 echo (isset($title) ? '
 
-    <section id="title" class="emerald">
-    <div class="container">
-    <div class="row">
-    <div class="col-sm-6">
-    <h1>'.$title.'</h1>
-    <p>'.$sub_title.'</p>
-    </div>
-    <div class="col-sm-6">'.zee_breadcrumb().'</div>
-    </div>
-    </div>
-    </section>
+  
 
     ' : '');
