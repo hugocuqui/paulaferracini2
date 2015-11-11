@@ -1692,6 +1692,15 @@ code{
   color: #fff;
 }
 
+.txt-img1,
+.txt-img2,
+.txt-img3{
+  margin-right: 7%;
+}
+.txt-img4{
+  margin-top: 30px;
+}
+
 textarea {
   padding: 10px;
   display: block;
@@ -2226,6 +2235,9 @@ div.wpcf7-mail-sent-ok{
   }
   .txts img{
     margin-bottom: 30px;
+  }
+  .navbar-inverse .navbar-nav>li a{
+    padding: 15px 8px;
   }
 
 }
