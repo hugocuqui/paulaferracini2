@@ -1686,6 +1686,10 @@ code{
 }
 .alert.alert-info.logged-in-as{
   /*display: none;*/
+  color: #fff;
+}
+.alert.alert-info.logged-in-as *{
+  color: #fff;
 }
 
 textarea {
