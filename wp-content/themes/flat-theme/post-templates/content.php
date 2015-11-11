@@ -14,7 +14,7 @@
           <div class="font-padrao uppercase">PAULA FERRACINI > BLOG > <?php the_title(); ?></div>
         <h1 class="entry-title">
             <?php the_title(); ?>
-            <?php edit_post_link( __( 'Edit', ZEETEXTDOMAIN ), '<small class="edit-link pull-right">', '</small>' ); ?>
+            <?php // edit_post_link( __( 'Edit', ZEETEXTDOMAIN ), '<small class="edit-link pull-right">', '</small>' ); ?>
         </h1>
         <?php } else { ?>
         <h2 class="entry-title">
@@ -22,7 +22,7 @@
             <?php if ( is_sticky() && is_home() && ! is_paged() ) { ?>
             <sup class="featured-post"><?php _e( 'Sticky', ZEETEXTDOMAIN ) ?></sup>
             <?php } ?>
-            <?php edit_post_link( __( 'Edit', ZEETEXTDOMAIN ), '<small class="edit-link pull-right">', '</small>' ); ?>
+            <?php // edit_post_link( __( 'Edit', ZEETEXTDOMAIN ), '<small class="edit-link pull-right">', '</small>' ); ?>
         </h2>
         <?php } //.entry-title ?>
 
@@ -72,5 +72,5 @@
 </div>
 
 <?php if ( is_single() && get_the_author_meta( 'description' ) && is_multi_author() ) { ?>
-<?php get_template_part( 'author-bio' ); ?>
+<?php //get_template_part( 'author-bio' ); ?>
 <?php } ?>
