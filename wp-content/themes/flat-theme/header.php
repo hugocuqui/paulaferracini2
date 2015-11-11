@@ -11,7 +11,7 @@
   <meta property="og:type"          content="Paula Ferracini" />
   <meta property="og:title"         content="Paula Ferracini Odontologia" />
   <meta property="og:description"   content="Odontologia" />
-  <meta property="og:image"         content="http://paulaferracini2.herokuapp.com/wp-content/themes/flat-theme/images/img/brand.png" />
+  <meta property="og:image"         content="<?php get_the_post_thumbnail('thumbnail'); ?>" />
 
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 

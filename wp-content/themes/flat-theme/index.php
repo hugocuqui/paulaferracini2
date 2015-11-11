@@ -14,10 +14,10 @@ if ( is_active_sidebar( 'sidebar' ) ) {
   fjs.parentNode.insertBefore(js, fjs);
 }(document, 'script', 'facebook-jssdk'));</script>
 
-
 <div class="container-fluid">
   <img src="<?php echo get_bloginfo('url'); ?>/wp-content/themes/flat-theme/assets/images/img/blog-banner-001.jpg" class="width100" />
 </div>
+
 <div class="container bem-vindo">
   <h2 class="text-center cinza-marrom">Blog</h2>
   <blockquote class="cinza-marrom">
