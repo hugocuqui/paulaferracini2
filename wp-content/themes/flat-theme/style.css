@@ -1369,7 +1369,7 @@ article.attachment .entry-meta ul {
 .post .entry-meta ul li,
 article.attachment .entry-meta ul li {
   display: inline-block;
-  margin-right: 10px;
+  margin-right: 5px;
   font-size: 12px;
   color: #999;
 }

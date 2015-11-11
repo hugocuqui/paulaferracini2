@@ -13,6 +13,8 @@
   <meta property="og:description"   content="Odontologia" />
   <meta property="og:image"         content="http://paulaferracini2.herokuapp.com/wp-content/themes/flat-theme/images/img/brand.png" />
 
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/html5shiv.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/respond.min.js"></script>
