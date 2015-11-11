@@ -2121,4 +2121,10 @@ div.wpcf7-mail-sent-ok{
   .txts img{
     margin-bottom: 30px;
   }
+
+}
+@media (min-width: 1000px) {
+  .modal-dialog{
+    width: 780px;
+  }
 }
