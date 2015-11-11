@@ -1664,6 +1664,12 @@ code{
    font-size: 19px;
    font-family: 'DaxlinePro-Light', sans-serif;
 }
+.font-padrao{
+  font-family: 'DaxlinePro-Light', sans-serif;
+}
+.uppercase{
+  text-transform: uppercase;
+}
 .widget-area ul li:before{
     position: absolute;
 

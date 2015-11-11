@@ -11,6 +11,7 @@
         <?php } //.entry-thumbnail ?>
 
         <?php if ( is_single() ) { ?>
+          <div class="font-padrao uppercase">PAULA FERRACINI > BLOG > <?php the_title(); ?></div>
         <h1 class="entry-title">
             <?php the_title(); ?>
             <?php edit_post_link( __( 'Edit', ZEETEXTDOMAIN ), '<small class="edit-link pull-right">', '</small>' ); ?>
@@ -33,7 +34,7 @@
                 <li> | </li>
                 <li class="category"><i class="fa fa-tag"></i><?php echo __('', ZEETEXTDOMAIN ); ?> <?php echo get_the_category_list(', '); ?></li>
                 <li> | </li>
-                
+
                 <li>
                   <div class="fb-like" data-layout="button" data-href="<?php the_permalink(); ?>"></div>
                 </li>
