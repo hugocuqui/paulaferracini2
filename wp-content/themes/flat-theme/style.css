@@ -1670,6 +1670,10 @@ code{
 .uppercase{
   text-transform: uppercase;
 }
+.btn-voltar{
+  border-top-color: #74698e;
+  border-bottom-color: #74698e;
+}
 .widget-area ul li:before{
     position: absolute;
 
