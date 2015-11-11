@@ -2111,6 +2111,7 @@ div.wpcf7-mail-sent-ok{
 .post .entry-meta ul li a, article.attachment .entry-meta ul li a{
   color: #74698e;
   font-family: 'DaxlinePro-Light', serif;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 600px) {

@@ -28,12 +28,24 @@
         <div class="entry-meta">
             <ul>
                 <li class="author"><i class="fa fa-pencil-square-o"></i> <?php echo __('', ZEETEXTDOMAIN ); ?> <?php the_author_posts_link() ?></li>
-                <li class="date"><i class="fa fa-clock-o"></i> <?php echo __('', ZEETEXTDOMAIN ); ?> <time class="entry-date" datetime="<?php the_time( 'c' ); ?>"><?php the_time('j M Y'); ?></time></li>
+                <li> | </li>
+                <li class="date"><i class="fa fa-clock-o"></i> <?php echo __('', ZEETEXTDOMAIN ); ?> <time class="entry-date" datetime="<?php the_time( 'c' ); ?>"><?php the_time('j/m/Y'); ?></time></li>
+                <li> | </li>
                 <li class="category"><i class="fa fa-tag"></i><?php echo __('', ZEETEXTDOMAIN ); ?> <?php echo get_the_category_list(', '); ?></li>
-                <?php if ( comments_open() && ! is_single() ) { ?>
-                <li class="comments-link">
-                    <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', ZEETEXTDOMAIN ) . '</span>', __( 'One comment so far', ZEETEXTDOMAIN ), __( 'View all % comments', ZEETEXTDOMAIN ) ); ?>
+                <li> | </li>
+                <li>
+                  <i class="fa fa-heart-o">
+                  <div class="fb-like" data-layout="button" data-href="<?php the_permalink(); ?>"></div>
                 </li>
+                <li> | </li>
+                <li>
+                  <div class="fb-share-button" data-href="<?php the_permalink(); ?>" data-layout="button" ></div>
+                  <i class="fa fa-share-alt">
+                </li>
+                <?php if ( comments_open() && ! is_single() ) { ?>
+                <!-- <li class="comments-link">
+                    <?php comments_popup_link( '<span class="leave-reply">' . __( 'Leave a comment', ZEETEXTDOMAIN ) . '</span>', __( 'One comment so far', ZEETEXTDOMAIN ), __( 'View all % comments', ZEETEXTDOMAIN ) ); ?>
+                </li> -->
                 <?php } //.comment-link ?>
             </ul>
         </div><!--/.entry-meta -->

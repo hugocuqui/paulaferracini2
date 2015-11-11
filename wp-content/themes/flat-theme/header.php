@@ -6,6 +6,13 @@
   <title><?php wp_title( '|', true, 'right' ); ?></title>
   <link rel="profile" href="http://gmpg.org/xfn/11">
   <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
+
+  <meta property="og:url"           content="http://paulaferracini2.herokuapp.com/" />
+  <meta property="og:type"          content="Paula Ferracini" />
+  <meta property="og:title"         content="Paula Ferracini Odontologia" />
+  <meta property="og:description"   content="Odontologia" />
+  <meta property="og:image"         content="http://paulaferracini2.herokuapp.com/wp-content/themes/flat-theme/images/img/brand.png" />
+
 <!--[if lt IE 9]>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/html5shiv.js"></script>
 <script src="<?php echo get_template_directory_uri() ?>/assets/js/respond.min.js"></script>
