@@ -1685,46 +1685,60 @@ code{
   border-radius: 0px;
 }
 .alert.alert-info.logged-in-as{
-  display: none;
+  /*display: none;*/
 }
 
 textarea {
-    padding: 10px;
-    display: block;
-    width: 70%;
-}
-
-::-webkit-input-placeholder {
-   color: #fff;
-}
-
-:-moz-placeholder {
-   color: #fff;
-}
-
-::-moz-placeholder {
-   color: #fff;
-}
-
-:-ms-input-placeholder {
-   color: #fff;
+  padding: 10px;
+  display: block;
+  width: 70%;
 }
 
 .well{
   background: #74698e;
   border-radius: 0px;
   margin-left: 20px;
+
 }
 .well *{
   color: #fff;
+  font-size: 12px;
 }
 
-.comment-form-comment textarea.form-control{
+.comment-notes{
+  display: none;
+}
+
+.alert-info{
+  background: #8f84a8;
+  border-radius: 0px;
+  border: 0px;
+}
+
+input[type="text"].form-control,
+textarea.form-control {
   background: #74698e;
   color: #fff;
   border-radius: 0px;
   border-width: 0px;
 }
+
+::-webkit-input-placeholder {
+  color: #fff;
+}
+
+:-moz-placeholder {
+  color: #fff;
+}
+
+::-moz-placeholder {
+  color: #fff;
+}
+
+:-ms-input-placeholder {
+  color: #fff;
+}
+
 .widget-area ul li:before{
     position: absolute;
 

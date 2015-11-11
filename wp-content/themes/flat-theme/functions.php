@@ -1027,7 +1027,7 @@ function zee_comments_list($comment, $args, $depth) {
 
                             <div class="comment-meta media-heading">
                                 <span class="author-name">
-                                    <?php _e('By', ZEETEXTDOMAIN); ?> <strong><?php echo get_comment_author(); ?></strong>
+                                    <?php _e('', ZEETEXTDOMAIN); ?> <strong><?php echo get_comment_author(); ?></strong>
                                 </span>
                                 -
                                 <time datetime="<?php echo get_comment_date(); ?>">
@@ -1041,7 +1041,7 @@ function zee_comments_list($comment, $args, $depth) {
                             </div>
 
                             <?php if ( '0' == $comment->comment_approved ) {  //Comment moderation ?>
-                            <div class="alert alert-info"><?php _e( 'Your comment is awaiting moderation.', ZEETEXTDOMAIN ); ?></div>
+                            <div class="alert alert-info"><?php _e( 'Seu comentário está aguardando aprovação do administrador.', ZEETEXTDOMAIN ); ?></div>
                             <?php } ?>
 
                             <div class="comment-content comment">
@@ -1118,22 +1118,22 @@ function zee_comment_form($args = array(), $post_id = null ){
         <div class="form-group">
         <div class="col-sm-6 comment-form-author">
         <input   class="form-control"  id="author"
-        placeholder="' . __( 'Name', ZEETEXTDOMAIN ) . '" name="author" type="text"
-        value="' . esc_attr( $commenter['comment_author'] ) . '" ' . $aria_req . ' />
+        placeholder="' . __( '', ZEETEXTDOMAIN ) . '" name="author" type="text"
+        value="Nome*" />
         </div>',
 
 
-        'email'  => '<div class="col-sm-6 comment-form-email">
+        'email'  => '<div class="col-sm-3 comment-form-email">
         <input id="email" class="form-control" name="email"
-        placeholder="' . __( 'Email', ZEETEXTDOMAIN ) . '" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . '
-        value="' . esc_attr(  $commenter['comment_author_email'] ) . '" ' . $aria_req . ' />
+        placeholder="' . __( '', ZEETEXTDOMAIN ) . '" ' . ( $html5 ? 'type="email"' : 'type="text"' ) . '
+        value="Email*" />
         </div>
-        </div>',
+        ',
 
 
-        'url'    => '<div class="form-group">
-        <div class=" col-sm-12 comment-form-url">' .
-        '<input  class="form-control" placeholder="'. __( 'Website', ZEETEXTDOMAIN ) .'"  id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="' . esc_attr( $commenter['comment_author_url'] ) . '"  />
+        'url'    => '
+        <div class=" col-sm-3 comment-form-url">' .
+        '<input  class="form-control" placeholder="'. __( '', ZEETEXTDOMAIN ) .'"  id="url" name="url" ' . ( $html5 ? 'type="url"' : 'type="text"' ) . ' value="Site"  />
         </div></div>',
 
         );
