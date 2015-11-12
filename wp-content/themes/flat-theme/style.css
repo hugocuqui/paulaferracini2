@@ -804,6 +804,13 @@ ul {
   margin: 0;
 }
 
+#main-slider .prev.qm-p{
+  left: -30px;
+}
+#main-slider .next.qm-n{
+  right: -30px;
+}
+
 .frases{
   position: absolute;
   top: 165px;
@@ -1194,6 +1201,7 @@ ul.tag-cloud li {
 }
 .modal .modal-body {
   padding: 20px;
+  margin-top: 20px;
 }
 .modal input[type="text"],
 .modal input[type="password"] {
