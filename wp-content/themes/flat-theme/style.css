@@ -2225,6 +2225,9 @@ div.wpcf7-mail-sent-ok{
   text-shadow: none !important;
   border-radius: 4px !important; */
 }
+.ekko-lightbox-nav-overlay a:hover{
+  color: #fff !important;
+}
 /* .ekko-lightbox-nav-overlay a.icon-angle-left{
   padding-left: 13px;
   padding-bottom: 40px;

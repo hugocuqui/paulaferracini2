@@ -23,8 +23,6 @@
 <?php wp_head(); ?>
 
 
-<link rel="stylesheet" href="/paulaferracini2/wp-content/themes/flat-theme/assets/js/ekko-lightbox/dist/ekko-lightbox.min.css">
-<script src="/paulaferracini2/wp-content/themes/flat-theme/assets/js/ekko-lightbox/dist/ekko-lightbox.min.js" charset="utf-8"></script>
 
 </head><!--/head-->
 
