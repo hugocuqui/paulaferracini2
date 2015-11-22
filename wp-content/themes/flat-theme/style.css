@@ -2102,6 +2102,9 @@ p.sub-title{
 .thumbnail{
   border: 0px;
 }
+.thumbnail.mg-bottom{
+  margin-bottom: 30px;
+}
 .cinza-marrom{
   color: #808183;
 }
@@ -2211,6 +2214,26 @@ div.wpcf7-mail-sent-ok{
   font-size: 15px;
 }
 
+.ekko-lightbox-nav-overlay a{
+  /* margin-top: 300px; */
+  opacity: 1 !important;
+  /* background: #74698e;
+  height: 30px !important;
+  color: #fff !important;
+  line-height: inherit !important;
+  width: 40px !important;
+  text-shadow: none !important;
+  border-radius: 4px !important; */
+}
+/* .ekko-lightbox-nav-overlay a.icon-angle-left{
+  padding-left: 13px;
+  padding-bottom: 40px;
+}
+.ekko-lightbox-nav-overlay a.icon-angle-right{
+  padding-right: 13px;
+  padding-bottom: 40px;
+}
+ */
 @media screen and (max-width: 600px) {
 
   .media-body.vi-in-block{
